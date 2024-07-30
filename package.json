@@ -5,7 +5,6 @@
     "dev": "next dev",
     "prettier": "prettier --write --ignore-unknown .",
     "prettier:check": "prettier --check --ignore-unknown .",
-    "seed": "node -r dotenv/config ./app/seed/route.ts",
     "start": "next start"
   },
   "dependencies": {
