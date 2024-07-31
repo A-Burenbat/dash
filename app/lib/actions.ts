@@ -23,12 +23,12 @@ const CreateInvoice = FormSchema.omit({ id: true, date: true });
 const UpdateInvoice = FormSchema.omit({ id: true, date: true });
 
 export type State = {
-        errors?: {
-        customerId?: string[];
-        amount?: string[];
-        status?: string[];
+    errors?: {
+      customerId?: string[];
+      amount?: string[];
+      status?: string[];
     };
-        message?: string | null;
+    message?: string | null;
   };
   
   export async function createInvoice(prevState: State, formData: FormData) {
